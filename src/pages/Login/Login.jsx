@@ -1,11 +1,13 @@
 import { useState } from "react";
 import Logo from "../../assets/logo.png";
 import "./Login.css";
+import {Link} from "react-router-dom"
 const Login = () => {
   const [signState, setSignState] = useState("Sign In");
   return (
     <div className="login">
-      <img src={Logo} alt="Netflix Logo" className="login-logo" />
+      <Link to="/"><img src={Logo} alt="Netflix Logo" className="login-logo" /></Link>
+      
       <div className="login-form">
         <h1>{signState}</h1>
         <form>

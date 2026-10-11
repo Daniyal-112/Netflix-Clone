@@ -11,13 +11,14 @@
   background-repeat: no-repeat;
 }
 .login-logo {
+  margin-top: 2px;
   width: 150px;
   height: auto;
 }
 .login-form {
   box-sizing: border-box;
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
   background: rgba(0, 0, 0, 0.75);
   border-radius: 4px;
   padding: 25px;
